@@ -11,8 +11,7 @@ function MovieCard ( { movie } : Props) {
   return (
     <div>
       <img
-        className="dsmovie-movie-card-image" src={movie.image} alt={movie.title}
-      />
+        className="dsmovie-movie-card-image" src={movie.image} alt={movie.title}/>
       <div className="dsmovie-card-bottom-container">
         <h3>{movie.title}</h3>
         <MovieScore count={movie.count} score={movie.score}/>
